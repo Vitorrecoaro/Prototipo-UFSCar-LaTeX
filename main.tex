@@ -19,6 +19,16 @@
     \renewcommand{\baselinestretch}{1.5}
 \begin{document}
 
+% Inclui a capa no documento.
+\input{capa.tex}
+
+% Cria uma nova página.
+\newpage
+
+% Começa a contagem das páginas a partir daqui.
+\setcounter{page}{1}
+
+% Parte principal do documento.
 \input{documento.tex}
 
 \end{document}
